@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="./images/fav (2).ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+   
+    <title> لمسة فخامة</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body dir="rtl">
+
+
+ <!-- Add sec Home -->
+  <header class="home m-4  mb-5" id="home">
+         <!-- Add Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top  mb-4">
+            <div class="container ">
+            <a class="navbar-brand" href="#home">
+                <img  src="./images/brand.png" width="50" height="50"/>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#home">الرئيسية </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#footer">من نحن </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                         الصفحات 
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#service">الخدمات</a></li>
+                    <li><a class="dropdown-item" href="#product"> اخر المنتجات</a></li>
+                    <li><a class="dropdown-item" href="#form">تسجيل الدخول</a></li>
+                    <li><a class="dropdown-item" href="#spe"> الخاص بك   </a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#product"> الاصناف </a>
+                </li>
+                </ul>
+                <div>
+                    <a class="btn btn-light" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                         السلة
+                         <i class="fa-solid fa-cart-shopping"></i>
+                      </a>
+                </div>
+            </div>
+            </div>
+        </nav>
+   
+         <!-- Add slider -->
+         <div
+      
+         id="carouselExampleCaptions"
+         class="carousel slide"
+         data-bs-ride="carousel">
+         <div class="carousel-indicators">
+           <button
+             type="button"
+             data-bs-target="#carouselExampleCaptions"
+             data-bs-slide-to="0"
+             class="active"
+             aria-current="true"
+             aria-label="Slide 1"></button>
+           <button
+             type="button"
+             data-bs-target="#carouselExampleCaptions"
+             data-bs-slide-to="1"
+             aria-label="Slide 2"></button>
+           <button
+             type="button"
+             data-bs-target="#carouselExampleCaptions"
+             data-bs-slide-to="2"
+             aria-label="Slide 3"></button>
+         </div>
+         <div class="carousel-inner w-60 container mt-5 mb-4">
+           <div class="carousel-item active">
+             <img src="./images/mark1.jpg" class="d-block w-100" height="400px" alt="..." />
+             <div class="carousel-caption d-none d-md-block">
+               <h5>First slide label</h5>
+               <p>
+                 Some representative placeholder content for the first slide.
+               </p>
+             </div>
+           </div>
+           <div class="carousel-item">
+             <img src="./images/mark2.png" height="400px"   class="d-block w-100" alt="..." />
+             <div class="carousel-caption d-none d-md-block">
+               <h5>Second slide label</h5>
+               <p>
+                 Some representative placeholder content for the second slide.
+               </p>
+             </div>
+           </div>
+           <div class="carousel-item">
+             <img src="./images/mark3.png" class="d-block w-100"height="400px"  alt="..." />
+             <div class="carousel-caption d-none d-md-block">
+               <h5>Third slide label</h5>
+               <p>
+                 Some representative placeholder content for the third slide.
+               </p>
+             </div>
+           </div>
+         </div>
+         <button
+           class="carousel-control-prev"
+           type="button"
+           data-bs-target="#carouselExampleCaptions"
+           data-bs-slide="prev">
+           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+           <span class="visually-hidden">Previous</span>
+         </button>
+         <button
+           class="carousel-control-next"
+           type="button"
+           data-bs-target="#carouselExampleCaptions"
+           data-bs-slide="next">
+           <span class="carousel-control-next-icon" aria-hidden="true"></span>
+           <span class="visually-hidden">Next</span>
+         </button>
+       </div>
+
+  </header> 
+
+
+
+
+
+
+
+  <!--  add sec products -->
+   <section  class="text-center mt-5 mb-4" id="product">
+
+           <!-- Add header -->
+            <h2 class="mt-5">  
+                <span class="border-bottom border-danger p-1">المنتجات </span>
+            </h2>
+
+            <!-- Add buttons -->
+            <div class="btn-group mt-3 mb-2 button-group filter-button-group">
+                <a href="#" class="btn btn-outline-danger  ms-3"   > الكل </a>
+                <a href="#" class="btn btn-outline-danger  ms-3" >الاكثر مبيعا</a>
+                <a href="#" class="btn btn-outline-danger  ms-3" >الاحدث  </a>
+                <a href="#" class="btn btn-outline-danger  ms-3" >الخصومات  </a>
+              </div>
+
+            <!-- add card -->
+               <div class="container d-flex justify-content-evenly flex-wrap">
+                  <!-- Add card [1]-->
+                    <div class="card m-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <img src="./images/card_t_shirt1.jpg" class="card-img-top"  width="250px" height="300px" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title text-primary"> $ 70</h5>
+                        <p class="card-text">تيشرت قطن</p>
+                        </div>
+                    </div>
+
+                     <!-- Add card [2]-->
+                    <div class="card m-2" >
+                        <img src="./images/card2.jpg" class="card-img-top" width="250px" height="300px"  alt="..." data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <div class="card-body">
+                        <h5 class="card-title text-primary"> $ 260</h5>
+                        <p class="card-text"> بنطلون جنيز اسود </p>
+                        </div>
+                    </div>
+
+                     <!-- Add card [3]-->
+                    <div class="card m-2" >
+                        <img src="./images/card3.jpg"  width="250px" height="300px" class="card-img-top" alt="..." data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <div class="card-body">
+                        <h5 class="card-title text-primary"> $ 250 </h5>
+                        <p class="card-text">بنطلون جينز رمادي </p>
+                        </div>
+                    </div>
+
+                     <!-- Add card [4]-->
+                    <div class="card m-2">
+                        <img src="./images/card4.jpg" width="250px" height="300px"  class="card-img-top" alt="..." data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <div class="card-body">
+                        <h5 class="card-title text-primary"> $ 350</h5>
+                        <p class="card-text">نقاب ماليزي قطعتين </p>
+                        </div>
+                    </div>
+
+                    <!-- Add card [5]-->
+                    <div class="card m-2" >
+                        <img src="./images/card5.jpg"  width="250px" height="300px" class="card-img-top" alt="..." data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <div class="card-body">
+                        <h5 class="card-title text-primary"> $ 170</h5>
+                        <p class="card-text"> خمار فرنسي  أخضر </p>
+                        </div>
+                    </div>
+
+                        <!-- Add card [6]-->
+                    <div class="card m-2" >
+                        <img src="./images/card6.jpg"   width="250px" height="300px"class="card-img-top" alt="..." data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <div class="card-body">
+                        <h5 class="card-title text-primary"> $ 250</h5>
+                        <p class="card-text"> كوتشي جوردن اخضر  </p>
+                        </div>
+                    </div>
+
+                    <!-- Add card [7]-->
+                    <div class="card m-2" >
+                        <img src="./images/card7.jpg"  width="250px" height="300px" class="card-img-top" alt="..." data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <div class="card-body">
+                        <h5 class="card-title text-primary"> $ 250</h5>
+                        <p class="card-text"> كوتشي جوردن حريمي  </p>
+                        </div>
+                    </div>
+
+                    <!-- Add card [8]-->
+                    <div class="card m-2">
+                        <img src="./images/card8.jpeg"  width="250px" height="300px" class="card-img-top" alt="..." data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <div class="card-body">
+                        <h5 class="card-title text-primary"> $ 170</h5>
+                        <p class="card-text">  خمار فرنسي نبيتي   </p>
+                        </div>
+                    </div>
+
+                     <!-- Add card [9]-->
+                    <div class="card m-2">
+                        <img src="./images/card9.jpg"  width="250px" height="300px"  class="card-img-top" alt="..." data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <div class="card-body">
+                        <h5 class="card-title text-primary"> $ 170</h5>
+                        <p class="card-text">   خمار فرنسي ازرق  </p>
+                        </div>
+                    </div>
+
+                      <!-- Add card [10]-->
+                    <div class="card m-2">
+                        <img src="./images/card10.jpg"   width="250px" height="300px"  class="card-img-top" alt="..." data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <div class="card-body">
+                        <h5 class="card-title text-primary"> $ 220</h5>
+                        <p class="card-text">بنطلون كارجو </p>
+                        </div>
+                    </div>
+
+                        <!-- add card [11]-->
+                    <div class="card m-2">
+                        <img src="./images/card11.jpeg" class="card-img-top"  width="250px" height="300px" alt="..." data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <div class="card-body">
+                        <h5 class="card-title text-primary"> $ 5000</h5>
+                        <p class="card-text"> ساعة رولكس </p>
+                        </div>
+                    </div>
+
+                    <!-- add card 12-->
+                    <div class="card m-2" >
+                        <img src="./images/ard12.jpg" class="card-img-top" width="250px" height="300px" alt="..." data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <div class="card-body">
+                        <h5 class="card-title text-primary"> $ 30</h5>
+                        <p class="card-text"> العاب الاطفال  عربية</p>
+                        </div>
+                    </div>
+                     
+               </div>
+
+   </section>
+
+
+
+
+
+
+
+  <!-- Contact me-->
+<section class="contact mb-4" id="form" >
+        <div class=" d-flex flex-column justify-content-center w-50 mx-auto ">
+            <h3 class="mt-5"> 
+                <span  class="text-primary  border-bottom-3 border-danger">تواصل معنا</span>
+            </h3>
+            <p  class="text-warning">  يقدم مواقعنا التجارب الفريدة في التسويق الالكتروني من  ملابس و احذية و اكسوارات 
+                تناسب  جميع الفئات العمرية 
+            </p>
+               <!-- Add button to sec -->
+            <div class="input-group mb-3" dir="ltr">
+                <button class="btn btn-primary rounded-pill" type="button" id="button-addon1">اشترك معنا </button>
+                <input type="email" class="form-control rounded-pill" placeholder=" البريد الالكتروني " aria-label="Example text with button addon" aria-describedby="button-addon1">
+              </div>
+        </div>
+</section>
+
+
+   <!-- Add sec order -->
+<section class="order mb-5" id="spe" >
+                <div class="container text-center mt-5 mb-5 border border-primary p-3 rounded">
+                    <h2 class="text-primary border-bottom-3 border-danger mb-2">  
+                          طلبية خاصة 
+                    </h2>
+
+                    <div class="row  mt-3 mb-3">
+                        <div class="c=-ol">
+                            <input type="text" placeholder=" ادخل الاسم" id="name" class="form-control">
+                        </div>
+                        <div class="col">
+                            <input type="email" placeholder=" ادخل البريد الالكتروني"  class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="row  mt-3 mb-3">
+                        <div class="col">
+                            <input type="tel" placeholder=" ادخل رقم الهاتف"  class="form-control">
+                        </div>
+                        <div class="col">
+                            <input type="text" placeholder="  عنوان الرسالة "  class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="row  mt-3 mb-3">
+                        <div class="col">
+                            <textarea class="form-control" placeholder="تفاصيل الطلبية " style="resize: none;" >
+                                        
+                            </textarea>
+                        </div>
+                    </div>
+
+                    <div class="row  mt-3 mb-3">
+                        <div class="col">
+                           <button class="btn btn-outline-danger w-50 rounded-pill"> إرسال </button>
+                        </div>
+                    </div>
+                </div>
+
+</section>
+
+   <hr class="mt-3 mb-3">
+   <!-- add sec contract -->
+<section class="contract container text-center mt-3 mb-3" id="form">
+      
+            <button class="btn btn-danger" data-bs-toggle="collapse" data-bs-target="#collapseExample" >  سياسة الخدمة </button>
+            <button class="btn btn-dark w-25 ms-2" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"> 
+                السلة  
+                <i class="fa-solid fa-cart-shopping"></i>
+            </button>
+    
+            <div class="collapse" id="collapseExample">
+                <div class="card card-body">
+                    <h4 class="text-danger text-center mb-2 mt-3"> سياسية إرجاع المنتجات</h4>
+
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item text-center">
+                          <h2 class="accordion-header"  id="flush-headingOne">
+                            <button class="accordion-button collapsed  btn btn-outline-primary "  type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                               مدة الإسترجاع 
+                            </button>
+                          </h2>
+                          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">يمكن إرجاع المنتج في غضون عشرة أيام  من تاريخ الشراء</div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed btn btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                              سياسية الاحتفاظ بالعلبة 
+                            </button>
+                          </h2>
+                          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body"> برجاء الاحتفاظ بالعلبة الخاصة بالمنتج  بالحالة التي تم   الاستلام بها </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed btn btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                              سياسية تقييم المنتجات 
+                            </button>
+                          </h2>
+                          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body"> إذا تم ملاحظة خطأ ما علي منتج ما  يمكنك تقييم المنتج </div>
+                          </div>
+                        </div>
+                      </div>
+
+                </div>
+              </div>
+
+</section>
+    <hr class="mt-3 mb-3">
+
+
+    <!-- Add sec service -->
+<section class="service mt-3 mb-4" id="service" >
+          <h4 class="text-center"> 
+                <span class=" text-primary  border-bottom border-danger">خدماتنا</span>  
+          </h4>
+    
+          <!-- Add service [1]-->
+            <div class="row mb-3  text-center"  dir="rtl">
+                <div class="col-md-5  col-sm-12 ">
+                            <iframe src="https://lottie.host/embed/6daeb7cc-e9fc-4436-b6f2-215de6155c7c/yXvtcVjSu0.json" width="100%" height="200px">
+                            </iframe>
+                </div>
+                <div class="col-md-7  col-sm-12 p-5">
+                    <h5 class="text-danger">  التسوق عن طريق الموبايل</h5>
+                    <p> يوجد لدينا خدمات و عروض خاصة  للتطبيقات إدارة السوبر ماركت  و معامل التحاليل و الصيدليات و الجيم  من خلال تطبيقات سطح المكتب  و غيرها </p>
+                </div>
+                <hr>
+           </div>
+   
+            <!-- Add service [2]-->
+           <div class="row mb-3 text-center " dir="rtl">
+            <div class="col-md-7  col-sm-12 p-5">
+                <h5 class="text-primary">  التوصيل حتي باب المنزل </h5>
+                <p> يوجد لدينا خدمات و عروض خاصة  للتطبيقات إدارة السوبر ماركت  و معامل التحاليل و الصيدليات و الجيم  من خلال تطبيقات سطح المكتب  و غيرها  و يوجد لدينا ايضاً خدمة التوصيل  إلي المنزل و في اسرع وقت ممكن </p>
+            </div>
+            <div class="col-md-5  col-sm-12 ">
+                        <iframe src="https://lottie.host/embed/8e9feea7-1832-41bd-a65a-5d9ad9ddf174/X84sKCKnO2.json" width="100%" height="200px">
+                        </iframe>
+            </div>
+            <hr>
+            </div>
+
+          <!-- Add service [3]-->
+       <div class="row mb-3 text-center"  dir="rtl">
+        <div class="col-md-5  col-sm-12 ">
+                    <iframe src="https://lottie.host/embed/3941e157-5923-4d55-a40b-d865844c26d7/x6hF8o5wGp.json" width="100%" height="200px">
+                    </iframe>
+        </div>
+        <div class="col-md-7  col-sm-12 p-5">
+            <h5 class="text-danger">  إحصائيات كاملة عن الموردين </h5>
+            <p> يوجد لدينا خدمات و عروض خاصة  للتطبيقات إدارة السوبر ماركت  و معامل التحاليل و الصيدليات و الجيم  من خلال تطبيقات سطح المكتب  و غيرها </p>
+        </div>
+        <hr>
+       </div>
+</section>
+
+  <!-- Add sec footer-->
+<footer class="bg-primary text-light mt-5" id="footer">
+    <div class="container pt-5">
+        <div class="row">
+            <div class="col-4">
+                <h3>  من نحن</h3>
+                <p>  يقدم لنا موقعنا تجربة فريدة من التسةق الالكتروني بطريقة ممتعة و سهلة  عند شراء اي المنتجات التي تختارها  و نوكد لك علي انا علي ما لدينا سينال إعجابك </p>
+            </div>
+            <div class="col-2"></div>
+            <hr>
+            <div class="col">
+                
+                <h4>  تواصل معنا</h4>
+                <p class="pt-2">
+                    <i class="fa-solid fa-house"></i>
+                    مصر جامعة بني سويف 
+                </p>
+
+                <p>
+                    <i class="fa-solid fa-envelope"></i> 
+                    mohamedalsaifi00@gmail.com
+                </p>
+                <p>
+                    <i class="fa-solid fa-phone"></i>
+                    01027548322
+                </p>
+            </div>
+            <hr>
+
+
+            <div class="col">
+                <h4> تابعنا</h4>
+                <a href="" class="text-light"> 
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="" class="text-light">  
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                </a>
+                <a href="" class="text-light"> 
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="" class="text-light"> 
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+       <!-- add  offcanvas -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel"> سجل الطلبات </h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+         
+                <div class="text-center">
+                    <img src="./images/card_t_shirt1.jpg"  data-bs-toggle="modal" data-bs-target="#exampleModal"  width="40%" class="img-thumbnail offcan-im "   alt="" srcset="">
+                    <p> تيشيرت بولو </p>
+                    <p class="text-primary"> $ 60</p>
+                </div>
+                <hr/>
+
+                <div class="text-center">
+                    <img src="./images/card2.jpg"   width="40%" class="img-thumbnail offcan-im "   data-bs-toggle="modal" data-bs-target="#exampleModal" alt="" srcset="">
+                    <p> بنطلون جنيز اسود </p>
+                    <p class="text-primary">  $ 260</p>
+                </div>
+                <hr/>
+
+                <div class="text-center">
+                    <img src="./images/card6.jpg"   width="40%" class="img-thumbnail offcan-im "   alt="" srcset=""  data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <p>   كوتشي جوردن اخضر  </p>
+                    <p class="text-primary"> $ 250</p>
+                </div>
+
+                <div class="text-center">
+                    <img src="./images/card8.jpeg"   width="40%" class="img-thumbnail offcan-im "   alt="" srcset=""  data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <p>  خمار فرنسي نبيتي </p>
+                    <p class="text-primary"> $ 170</p>
+                </div>
+                <div class="text-center">
+                    <img src="./images/card7.jpg"   width="40%" class="img-thumbnail offcan-im "   alt="" srcset="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <p> كوتشي جوردن  حريمي </p>
+                    <p class="text-primary"> $ 250</p>
+                </div>
+                <div class="text-center">
+                    <img src="./images/card4.jpg"   width="40%" class="img-thumbnail offcan-im "   alt="" srcset="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <p>  نقاب ماليزي قطعتين </p>
+                    <p class="text-primary"> $ 350</p>
+                </div>
+                <hr/>
+                <h3 class="text-primary text-center">  الاجمالي :  $ 1340</h3>
+                <hr/>
+                <div class="text-center">
+                    <button  class="btn btn-outline-danger w-50">  إكمال الشراء </button>
+                </div>
+          </div>
+    
+    </div>
+
+
+        <!-- Add  model -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div  class="modal-dialog modal-dialog-centered" role="document"role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">تفاصيل المنتج</h5>
+                
+                </div>
+                <div class="modal-body">
+                  
+                    <div class="row sm-500px">
+                        <div class="col">
+                            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img src="./images/card_t_shirt1.jpg" class="d-block w-100" alt="..."  style="height: 300px;">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="./images/card3.jpeg" class="d-block w-100" alt="..." style="height: 300px;">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="./images/card5.jpeg" class="d-block w-100" alt="..." style="height: 300px;">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="./images/card4.jpeg" class="d-block w-100" alt="..." style="height: 300px;">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="./images/card10.jpg" class="d-block w-100" alt="..." style="height: 300px;">
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
+                        </div>
+                        <div class="col">
+                             <h3 class="text-primary mb-3"> تيشرت </h3>
+                             <hr>
+                             <p>  متاح من هذا التيشرت العديد من الالوان  و خامات عالية الجودة </p>
+                             <p> السعر : 60 $</p>
+                             <button class="btn btn-primary"> الاضافة إلي السلة </button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                 
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">إغلاق </button>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

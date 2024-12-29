@@ -1,0 +1,42 @@
+body{
+    background-color: #f2f3f4 ;
+}
+
+.myicon i{
+    color: blue;
+    font-size: 30px;
+}
+.offcan-im {
+    height: 250px;
+    width: 250px;
+}
+
+.card img:hover{
+    transform: scale(1.1);
+    transition: ease all 1s;
+}
+.contact{
+    background-image: url('/images/bgcimge3.jpg') !important;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 60vh;
+    text-align: center;  
+}
+#spe{
+    background-image: url('/images/bgcimge.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 60vh;
+    text-align: center;
+}
+.contact h3{
+    margin-top: 30px;
+}
+.order{
+    height: 60vh;
+}
+.best-sells{
+    height: 100vh;
+}
+
+
